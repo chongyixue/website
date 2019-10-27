@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2019-04-20T00:00:00"
 draft = false
 
 widget = "about"
@@ -12,24 +12,24 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Computer Architecture",
-    "High Level Synthesis",
-    "VLSI"
+    "Computer Programming",
+    "Machine Learning",
+    "Physics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Computer Architecture"
+  course = "PhD in Condensed Matter Physics"
   institution = "Cornell University"
    
 
 [[education.courses]]
-  course = "BTech in Electrical Engineering"
-  institution = "Indian Institute of Technology, Kanpur"
+  course = "MSci Physics"
+  institution = "University of Birmingham"
   year = 2014
  
 +++
 
 # Biography
 
-I am a 5th year PhD candidate in Computer System Laboratory ([CSL](http://www.csl.cornell.edu)) at Cornell University. My research interests are computer architecture, high level synthesis and very large scale integration. I am being advised by [Prof. David Albonesi](http://www.csl.cornell.edu/~albonesi/) and [Prof. Zhiru Zhang](http://www.csl.cornell.edu/~zhiruz/). You can find my [CV](home/CV.pdf).
+I am a 6th year PhD candidate in J. C. Davis group at Cornell University. You can find my [CV](home/CV.pdf).

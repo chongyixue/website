@@ -26,8 +26,8 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Pointer-Chase-Prefetcher"
-  tag = ".pointer-chase"
+  name = "Mahjong Tutorial"
+  tag = ".mahjong-tutorial"
 
 [[filter]]
   name = "Other"
