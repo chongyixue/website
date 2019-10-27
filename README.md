@@ -36,6 +36,7 @@ be able to view your website.
 ```bash
 % hugo # This actually builds the webiste
 % cd public
+% git add .
 % git commit -a -m "XYZ"
 % git push
 ```
@@ -46,6 +47,7 @@ website will be available publicly.
 
 ```bash
 % cd website
+% git add .
 % git commit -a -m "ABC"
 % git push
 ```
@@ -54,3 +56,34 @@ This will push the changes to website repo so that you can clone your hugo
 project on any machine.
 
 NOTE: Use % git status to check the changes you made in that repo
+
+# Structure of the website folder
+
+```
+website
+  |
+  --- config.toml : This defines layout of your website.
+  |
+  --- content : This has info that is displayed on your website
+  |      |
+  |      --- home : This has a .md file for each section in your website e.g. posts, publication etc. 
+  |      |          You don't put any content here. 
+  |      |
+  |      --- personal : Leave this empty
+  |      |
+  |      --- post : Don't touch _index.md. Just create a folder for a new tutorial. Copy index.md from
+  |      |          another existing tutorial folder and modify it. e.g. if you want a tutorial on 
+  |      |          Excel VBA, create a folder post/excel-vba and copy post/mahjong-tutorial/index.md
+  |      |          into this folder and modify it accordingly.
+  |      |
+  |      --- publication : Don't touch index.md. Just copy existing file for a paper e.g. 
+  |                        publication/nature.md to publication/new_paper.md and modify it. You can also
+  |                        put the pdf of your paper here.
+  | 
+  --- static : Useless folder. Except the static/img folder has your profile picture.
+  |
+  --- themes : This has the theme. You just leave it alone.
+  |
+  --- public : When you build your website this folder will have all your html, css files. 
+               Leave this folder alone as well.     
+```
