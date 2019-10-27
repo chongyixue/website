@@ -14,10 +14,10 @@ https://github.com/gohugoio/hugo/releases/
 # These are the steps to download this website and build it on Ubuntu machine
 
 ```bash
-% git clone git@github.com:nitish2112/website.git
+% git clone https://github.com/chongyixue/website.git
 % cd website
 % git submodule update --init
-% git clone https://github.com/nitish2112/nitish2112.github.io.git public
+% git clone https://github.com/chongyixue/chongyixue.github.io.git public
 ```
 
 Now you can make your chnages in the website/contents folder and run the 
@@ -25,23 +25,24 @@ following commands to view your website locally
 
 ```bash
 % cd website
-% hugo server -w
+% hugo server -w # This will show the demo of webiste but will not build it
 ```
  
 Go to your browser and type http://localhost:1313/ in the URL and you should 
 be able to view your website.
 
-# To commit your changes to the website and make them public
+# To make changes to your website and publish them
 
 ```bash
+% hugo # This actually builds the webiste
 % cd public
 % git commit -a -m "XYZ"
 % git push
 ```
-This will push your repository to nitish2112.github.io and the changes in your
+This will push your repository to chongyixue.github.io and the changes in your
 website will be available publicly.
 
-# To commit the changes in the markdown files 
+# To commit the changes to your website folder that you use to build website
 
 ```bash
 % cd website
@@ -51,3 +52,5 @@ website will be available publicly.
 
 This will push the changes to website repo so that you can clone your hugo
 project on any machine.
+
+NOTE: Use % git status to check the changes you made in that repo

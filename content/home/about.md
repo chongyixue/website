@@ -32,4 +32,4 @@ weight = 1
 
 # Biography
 
-I am a 6th year PhD candidate in J. C. Davis group at Cornell University. You can find my [CV](home/CV.pdf).
+I am a 6th year PhD candidate in J. C. Davis group at Cornell University, NY. You can find my [CV](home/CV.pdf).
