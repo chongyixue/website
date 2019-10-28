@@ -5,10 +5,10 @@ image_preview = ""
 math = true
 publication_types = ["1"]
 publication = "In *Conference Name*"
-publication_short = "In *Conference abbreviation, 2019*"
+#publication_short = "In *Conference abbreviation, 2019*"
 selected = true
 title = "Name of my paper"
-url_pdf = "publication/async-tvlsi.pdf"
+#url_pdf = "publication/async-tvlsi.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
