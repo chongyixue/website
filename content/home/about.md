@@ -12,14 +12,15 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Computer Programming",
+    "Data Engineering",
+    "Algorithms", "Data Analysis",
     "Machine Learning",
     "Physics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Condensed Matter Physics"
+  course = "PhD in Condensed Matter Physics, 2020"
   institution = "Cornell University"
    
 
@@ -32,4 +33,4 @@ weight = 1
 
 # Biography
 
-I am a 6th year PhD candidate in J. C. Davis group at Cornell University, NY. You can find my [CV](home/CV.pdf).
+I am a Postdoc in J. C. Davis group at Cornell University, Ithaca NY. You can find my [Resume](home/YiXueChongResume2021.pdf).
