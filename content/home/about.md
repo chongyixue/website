@@ -20,9 +20,9 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Condensed Matter Physics, 2020"
+  course = "PhD in Condensed Matter Physics"
   institution = "Cornell University"
-   
+  year = 2020   
 
 [[education.courses]]
   course = "MSci Physics"

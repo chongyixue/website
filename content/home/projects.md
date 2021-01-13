@@ -25,13 +25,13 @@ view = 1
   name = "All"
   tag = "*"
   
-[[filter]]
-  name = "Mahjong Tutorial"
-  tag = ".mahjong-tutorial"
-
-[[filter]]
-  name = "Other"
-  tag = ".demo"
+#[[filter]]
+#  name = "Mahjong Tutorial"
+#  tag = ".mahjong-tutorial"
+#
+#[[filter]]
+#  name = "Other"
+#  tag = ".demo"
 
 +++
 

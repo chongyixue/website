@@ -38,7 +38,7 @@ be able to view your website.
 % cd public
 % git add .
 % git commit -a -m "XYZ"
-% git push
+% git push  
 ```
 This will push your repository to chongyixue.github.io and the changes in your
 website will be available publicly.
